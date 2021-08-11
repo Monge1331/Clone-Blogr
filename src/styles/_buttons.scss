@@ -1,0 +1,40 @@
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+ .buttons-login{
+     display:flex;
+     align-items: right;
+ }
+.background-white{
+    border: 1px solid white;
+    padding: 0.7rem;
+    border-radius: 2rem;
+    margin: 16px;
+    color: var(--light-red2);
+    cursor: pointer;
+    transition: .5s;
+}
+.background-white:hover{
+    opacity: .65;
+}
+
+
+.background-tranparent{
+    border: 1px solid white;
+    cursor: pointer;
+    color: #FFFFFF;
+    background: transparent;
+    border-radius: 2rem;
+    padding: 0.7rem;
+    margin: 16px;
+    transition: 0.2s;
+    opacity: .8;
+}
+
+.background-tranparent:hover{
+    opacity: 2;
+}   
